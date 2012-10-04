@@ -17,3 +17,7 @@ gem 'rails', '3.2.8'
 gem 'json'
 gem 'jquery-rails'
 gem 'i18n', '0.6.1'
+
+# resque scheduler - CC-78
+gem 'resque'
+gem 'resque-scheduler', :require => 'resque_scheduler'
