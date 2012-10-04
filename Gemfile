@@ -14,7 +14,6 @@ group :assets do
 end
 
 gem 'rails', '3.2.8'
-gem 'pg'
 gem 'json'
 gem 'jquery-rails'
 gem 'i18n', '0.6.1'
