@@ -1,0 +1,13 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: bananas_development
+  host: localhost
+  user: jimneath
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: bananas_test
+  host: localhost
+  user: jimneath

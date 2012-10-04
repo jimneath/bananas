@@ -1,0 +1,12 @@
+export PATH ; PATH="/Users/jimneath/.rvm/gems/jruby-1.6.7.2@bananas/bin:/Users/jimneath/.rvm/gems/jruby-1.6.7.2@global/bin:/Users/jimneath/.rvm/rubies/jruby-1.6.7.2/bin:/Users/jimneath/.rvm/bin:$PATH"
+export rvm_env_string ; rvm_env_string='jruby-1.6.7.2@bananas'
+export rvm_path ; rvm_path='/Users/jimneath/.rvm'
+export rvm_ruby_string ; rvm_ruby_string='jruby-1.6.7.2'
+export rvm_gemset_name ; rvm_gemset_name='bananas'
+export RUBY_VERSION ; RUBY_VERSION='jruby-1.6.7.2'
+export GEM_HOME ; GEM_HOME='/Users/jimneath/.rvm/gems/jruby-1.6.7.2@bananas'
+export GEM_PATH ; GEM_PATH='/Users/jimneath/.rvm/gems/jruby-1.6.7.2@bananas:/Users/jimneath/.rvm/gems/jruby-1.6.7.2@global'
+export MY_RUBY_HOME ; MY_RUBY_HOME='/Users/jimneath/.rvm/rubies/jruby-1.6.7.2'
+export IRBRC ; IRBRC='/Users/jimneath/.rvm/rubies/jruby-1.6.7.2/.irbrc'
+unset MAGLEV_HOME
+unset RBXOPT
