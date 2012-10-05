@@ -30,3 +30,4 @@ gem 'resque-scheduler', :require => 'resque_scheduler'
 # turbo sprockets - ZD 50472
 gem 'turbo-sprockets-rails3'
 gem 'bootstrap-sass'
+gem "rails-backbone"
