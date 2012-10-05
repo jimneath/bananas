@@ -1,11 +1,11 @@
 source 'http://rubygems.org'
 
-platforms :jruby do 
-  gem 'jruby-openssl' 
-  gem 'trinidad'
-  gem 'activerecord-jdbc-adapter' 
-  gem 'jdbc-postgres', :require => false 
-end 
+# platforms :jruby do 
+#   gem 'jruby-openssl' 
+#   gem 'trinidad'
+#   gem 'activerecord-jdbc-adapter' 
+#   gem 'jdbc-postgres', :require => false 
+# end 
 
 platforms :mri do
   gem 'pg'
@@ -29,5 +29,4 @@ gem 'resque-scheduler', :require => 'resque_scheduler'
 
 # turbo sprockets - ZD 50472
 gem 'turbo-sprockets-rails3'
-gem 'sass-rails', '~> 3.1'
-gem 'bootstrap-sass', '~> 2.1.0.1'
+gem 'bootstrap-sass'
