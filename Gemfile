@@ -7,6 +7,11 @@ platforms :jruby do
   gem 'jdbc-postgres', :require => false 
 end 
 
+platforms :mri do
+  gem 'pg'
+  gem 'puma'
+end
+
 group :assets do
   gem 'sass-rails', '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
