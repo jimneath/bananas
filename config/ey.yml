@@ -1,5 +1,8 @@
---- 
-environments: 
-  jruby: 
+
+---
+environments:
+  jruby:
     migrate: false
     migration_command: rake db:migrate
+  puma:
+    migrate: false
