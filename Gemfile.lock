@@ -146,6 +146,8 @@ DEPENDENCIES
   jquery-rails
   jruby-openssl
   json
+  pg
+  puma
   rails (= 3.2.8)
   resque
   resque-scheduler
