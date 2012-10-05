@@ -1,11 +1,12 @@
 def compile_assets
-  shell.status "baaaananas"
-  roles :app_master, :app, :solo do
-    keep_existing_assets
+  shell.status "bananas"
+  rails_version = bundled_rails_version
+  
+  roles :app_master, :app, :solo, :util do
     cmd = "cd #{paths.active_release} && PATH=#{paths.binstubs}:$PATH #{config.framework_envs} rake assets:precompile"
 
     if rails_version
-      shell.status "Precompiling assets for rails v#{bundled_rails_version}"
+      shell.status "Precompiling assets for rails v#{rails_version}"
     else
       shell.warning "Precompiling assets even though Rails was not bundled."
     end
