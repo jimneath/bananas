@@ -1,11 +1,11 @@
 source 'http://rubygems.org'
 
-# platforms :jruby do 
-#   gem 'jruby-openssl' 
-#   gem 'trinidad'
-#   gem 'activerecord-jdbc-adapter' 
-#   gem 'jdbc-postgres', :require => false 
-# end 
+platforms :jruby do 
+  gem 'jruby-openssl' 
+  gem 'trinidad'
+  gem 'activerecord-jdbc-adapter' 
+  gem 'jdbc-postgres', :require => false 
+end 
 
 platforms :mri do
   gem 'pg'
