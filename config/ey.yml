@@ -8,4 +8,6 @@ environments:
     migrate: false
   turbo:
     migrate: false
+  cc_173:
+    migrate: false
 ...
