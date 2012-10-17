@@ -1,9 +1,16 @@
 source 'http://rubygems.org'
 
-platforms :mri do
+platforms :mri, :rbx do
   gem 'pg'
   gem 'puma'
 end
+
+platforms :jruby do 
+  gem 'jruby-openssl' 
+  gem 'puma'
+  gem 'activerecord-jdbc-adapter' 
+  gem 'jdbc-postgres', :require => false 
+end 
 
 group :assets do
   gem 'sass-rails', '~> 3.2.3'
