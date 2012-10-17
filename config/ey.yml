@@ -6,3 +6,6 @@ environments:
     migration_command: rake db:migrate
   puma:
     migrate: false
+  turbo:
+    migrate: false
+...

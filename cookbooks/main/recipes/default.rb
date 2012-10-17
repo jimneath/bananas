@@ -1,1 +1,1 @@
-require_recipe 'trinidad'
+require_recipe 'collectd'
